@@ -5,7 +5,7 @@ import {
   forceManyBody,
   forceSimulation,
 } from "d3-force";
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import { tick } from "./events";
 import { addDrag, addHoverOpacity, addZoom } from "./interactions";
