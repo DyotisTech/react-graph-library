@@ -9,7 +9,7 @@ import React, { useEffect, useRef } from "react";
 
 import { tick } from "./events";
 import { addDrag, addHoverOpacity, addZoom } from "./interactions";
-import d3 from "d3";
+import * as d3 from "d3";
 
 // TODO: make component independent of restProps
 // TODO: handle error when line is not <line>
