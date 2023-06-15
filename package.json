@@ -1,0 +1,17 @@
+{
+  "name": "react-graph-library",
+  "version": "1.0.0",
+  "description": "react-graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Singh",
+  "license": "MIT",
+  "dependencies": {
+    "d3-drag": "^1.2.4",
+    "d3-force": "^2.0.1",
+    "d3-selection": "^1.4.0",
+    "d3-zoom": "^1.8.3"
+  }
+}
